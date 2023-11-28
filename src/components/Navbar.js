@@ -31,13 +31,14 @@ const Navbar = () => {
             <ul className='item'>
         <a href="/">Projects</a>
         </ul>
-        </div>
-  
-        <div className="button-container">
+        {/* <div className="button-container">
 <button className="btn">
             Lets Connect
         </button>
-</div>
+</div> */}
+        </div>
+  
+  
 
         <div className="social-media">
             <div className="github">
