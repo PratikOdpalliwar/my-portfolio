@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 3rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.first-container{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 0px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.para{
+    font-size: 25px;
+    margin: 5px;
+}
+
+.name{
+   
+    font-size: 40px;
+    margin: 5px;
+    font-weight: bold;
+
+}
+
+.intro{
+    margin: 5px;
+    width: 100%;
+    font-size: 15px; 
+    display: flex;
+    align-content: center;
+  justify-content: center; 
+  text-align: justify;
+}
+
+.second-container{
+    height: 500px;
+    width: 500px;
+
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
