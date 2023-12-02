@@ -15,6 +15,11 @@ const Banner = () => {
 <div className="intro">
 Hello! I'm Pratik, a passionate and self-motivated React Developer eager to kickstart my career in web development. Currently honing my skills by working on diverse projects daily, I'm going build a responsive and dynamic web applications by using React.
 </div>
+
+<div className="btn-cont">
+<div className="btn">Conneect</div>
+</div>
+
     </div>
 
     <div className="second-container">

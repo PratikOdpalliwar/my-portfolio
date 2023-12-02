@@ -31,11 +31,6 @@ const Navbar = () => {
             <ul className='item'>
         <a href="/">Projects</a>
         </ul>
-        {/* <div className="button-container">
-<button className="btn">
-            Lets Connect
-        </button>
-</div> */}
         </div>
   
   

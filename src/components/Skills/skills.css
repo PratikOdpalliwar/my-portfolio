@@ -1,15 +1,23 @@
+ .main-container{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+   
+    
+}
+
 .App1{
     top: 40rem;
     display: flex;
     justify-content: center;
     align-content: center;
-    height: 100%;
-    width: 100%;
-    background-color:black;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    width: 95%;
+    background-color:white;
     flex-direction: column;
     text-align: center;
+    border-radius: 50px;
     
 }
 
@@ -21,54 +29,36 @@
    justify-content: center;
    align-content: center;
    padding: 20px;
-   font-size: 3rem;
-   color: aliceblue;
+   font-size: 2rem;
+   color:black;
+   margin-bottom: 20px;
 }
-.container2{
-    height: 80%;
+
+.container2 {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch; 
     width: 100%;
-    /* background-color:white;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px; */
-/* border-radius: 50px; */
-display: flex;
-justify-content: center;
-align-content: center;
-flex-wrap: wrap;
-padding: 20px 0px;
+    white-space: nowrap;
+  }
+  
+  .skill-box {
+    flex: 0 0 auto;
+    scroll-snap-align: start; 
+    width: 200px;
+    height: 60px; 
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    border-radius: 5px;
 
-}
+  }
+  
 
-.skill-box{
-    height: 120px;
-    width: 170px;
-    margin: 30px;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-font-size: 1rem;
-background-image: linear-gradient(45deg, rgb(140, 85, 250) 0%,rgb(200, 215, 253) 75%,rgb(143, 230, 243) 100%);
-color:rgb(0, 0, 0);
-padding: 10px;
-    border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.475); */
-    transition: 0.5s ease-in-out;
-    font-weight: bold;
-    /* box-shadow: 5px 5px 5px 5px rgb(255, 255, 255); */
-    box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.553);
-}
-
-.skill-box:hover{
-    height: 100px;
-    width: 130px;
-    margin: 30px;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-/* font-size: 1rem; */
-box-shadow: 5px 5px 5px rgb(255, 255, 255);
-transition: 0.5s ease-in-out;
-}
